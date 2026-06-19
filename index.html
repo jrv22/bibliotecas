@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<!-- saved from url=(0040)https://jrosellv.wixsite.com/bibliotecas -->
-<html lang="es" style=""><head><style>[data-hook="freemium-button"], .zAqGm2, .hN2NUY, a[href*="wix.com"], [id*="wix-ads"], [class*="wix-ads"] { display: none !important; visibility: hidden !important; height: 0 !important; opacity: 0 !important; }</style><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<script>
-  (function() {
-    // CAMBIA "*JRV222zq?2026" POR LA CONTRASEÑA QUE TÚ QUIERAS
-    var contraseniaCorrecta = "*JRV222zq?2026"; 
-    
-    var accesoConcedido = sessionStorage.getItem("acceso_biblioteca");
-
-    if (accesoConcedido !== "ok") {
-      var intento = prompt("Introduce la contraseña para acceder a la biblioteca familiar:");
-      
-      if (intento === contraseniaCorrecta) {
-        sessionStorage.setItem("acceso_biblioteca", "ok");
-      } else {
-        alert("Contraseña incorrecta. Acceso denegado.");
-        window.location.href = "https://google.com"; // Redirige a los intrusos
-      }
-    }
   })();
 </script>
 
